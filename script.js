@@ -1,5 +1,9 @@
 window.scrollTo(0, document.body.scrollHeight);
 
+window.onbeforeunload = function () {
+    window.scrollTo(0, document.body.scrollHeight);
+};
+
 const img = document.getElementById("map");
 let freeze = false;
 
