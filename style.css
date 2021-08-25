@@ -23,3 +23,7 @@ html {
 .fixed {
   position: fixed;
 }
+
+.map-selection {
+  text-align: center;
+}
