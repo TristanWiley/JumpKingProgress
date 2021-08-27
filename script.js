@@ -12,7 +12,7 @@ const maps = {
   },
   boa: {
     displayName: "Babe Of Ascension",
-    image: "bos.jpeg",
+    image: "boa.png",
   },
 };
 
