@@ -16,7 +16,7 @@ const maps = {
   },
 };
 
-let currentMap = getCookie("CURRENT_MAP") || "original";
+let currentMap = getCookie("CURRENT_MAP") || "nbplus";
 
 updateMap(currentMap);
 
