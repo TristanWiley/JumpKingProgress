@@ -10,13 +10,17 @@ const maps = {
     displayName: "New Babe+",
     image: "nbplus.jpeg",
   },
+  gotb: {
+    displayName: "Ghost Of The Babe",
+    image: "gotb.jpeg",
+  },
   boa: {
     displayName: "Babe Of Ascension",
     image: "boa.png",
   },
 };
 
-let currentMap = getCookie("CURRENT_MAP") || "boa";
+let currentMap = getCookie("CURRENT_MAP") || "gotb";
 
 updateMap(currentMap);
 
